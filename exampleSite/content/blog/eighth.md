@@ -2,7 +2,7 @@
 title: "Eighth"
 date: 2018-10-07T11:40:11+02:00
 publishdate: 2018-10-07T11:40:11+02:00
-image: "/images/blog/8.jpg"
+thumbnail: "/images/8.jpg"
 tags: ["interesting"]
 comments: false
 ---
