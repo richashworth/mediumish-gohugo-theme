@@ -22,7 +22,7 @@
                         {{if isset .Site.Params.author "thumbnail"}}
                         {{if isset .Site.Params.author "description"}}
                         <div class="row post-top-meta">
-                            <div class="col-xs-12 col-md-3 col-lg-2 lg-nopad-right text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                               <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
                                 <img class="author-thumb" src="{{ .Site.Params.author.thumbnail | urlize | relURL}}" alt="{{ .Site.Params.author.name }}">
                             </div>
                             <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
